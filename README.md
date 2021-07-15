@@ -1,8 +1,6 @@
 # Pothole-Detection-System-using-CNN
 This is a pothole detection detection system created using Image Classification by Convolutional Neural Networks. 
 
-The dataset used can be found at this link : https://drive.google.com/drive/folders/1PHQyEzqL-fJR6hTal57h3iTEuMo0GFy2?usp=sharing
-
 ### Dataset
 The dataset consists of 3 folders : Train, Test and Validation(Val). All of the folders have images which are divided into two folders : Normal and Pothole. This has been done to label the images without creating a separate .csv file. The images used have been preprocessed into 64X64 image size to reduce the memory usage during the training of the model. The model has been designed for the same image size.
   1. Train - 1022 images divided into two classes
